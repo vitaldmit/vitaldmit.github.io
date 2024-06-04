@@ -1,0 +1,93 @@
+/* cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 100 900;
+  /* font-display: swap; */
+  src: url('../fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+  /* unicode-range: U+0301, U+0400-045F, U+0490-049 1, U+04B0-04B1, U+2116; */
+}
+
+/* Подключение шрифта Montserrat */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px 0 0 0;
+}
+
+.container, footer{
+   min-width: 360px;
+}
+
+p{
+  margin: 0;
+}
+
+.fw-extrabold{
+  font-weight: 800;
+}
+
+.header__title{
+  font-size: 14px;
+}
+
+.header__label{
+  font-size: 14px;
+  color: #4F4F4F;
+  line-height: 10px;
+}
+
+.header__info{
+  color: #333333;
+}
+
+.header__icon{
+  position: relative;
+  transition: 0.5s;
+  width: 24px;
+}
+
+.header__logo {
+  width: 36px;
+}
+
+.header__icon:hover{
+  top: -1px;
+}
+
+.header__btn-text{
+  font-size: 10px;
+}
+
+/* Стили для основного контентп */
+
+.img{
+  overflow: hidden;
+}
+
+.hero__list{
+  list-style: none;
+  font-size: 28px;
+}
+
+.line{
+  border-color: #828282;
+  max-width: 150px;
+}
+
+.text-block{
+  background: #fff6dd;
+  padding-block: 30px;
+}
+
+/* Стили для подвала */
+
+footer{
+  background: #4F4F4F;
+  color: #fff;
+  font-size: 14px;
+}
+
+footer a{
+  color: #fff;
+  text-decoration: none;
+}
